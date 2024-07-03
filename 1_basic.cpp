@@ -59,7 +59,6 @@ int main(){
     n = s;
     cout<<*n<<endl;
 
-    
 
     return 0 ;
 }
