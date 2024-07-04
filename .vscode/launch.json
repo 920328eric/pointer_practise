@@ -1,5 +1,29 @@
 {
-    "version": "0.2.0",
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C/C++: clang++ build active file",
+            "type": "shell",
+            "command": "/usr/bin/clang++",
+            "args": [
+                "-std=gnu++14",
+                "-fcolor-diagnostics",
+                "-fansi-escape-codes",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Generated task by Debugger."
+        }
+    ],
     "configurations": [
         {
             "name": "C/C++: clang++ build and debug active file",

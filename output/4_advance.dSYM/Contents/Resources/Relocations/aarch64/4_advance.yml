@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/chenchongyu/Desktop/研究所資料/c++ 練習/output/4_advance"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A28, symSize: 0x2EC }
+  - { offsetInCU: 0x4479, offset: 0x4479, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x318, symBinAddr: 0x100003D40, symSize: 0x58 }
+  - { offsetInCU: 0x44B9, offset: 0x44B9, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB8ue170006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x3FC, symBinAddr: 0x100003E24, symSize: 0x2C }
+  - { offsetInCU: 0x6E81, offset: 0x6E81, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A28, symSize: 0x2EC }
+  - { offsetInCU: 0x7001, offset: 0x7001, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ue170006EPFRS3_S4_E, symObjAddr: 0x2EC, symBinAddr: 0x100003D14, symSize: 0x2C }
+  - { offsetInCU: 0x7033, offset: 0x7033, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ue170006Ec, symObjAddr: 0x370, symBinAddr: 0x100003D98, symSize: 0x8C }
+  - { offsetInCU: 0x709F, offset: 0x709F, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB8ue170006Ec, symObjAddr: 0x428, symBinAddr: 0x100003E50, symSize: 0x38 }
+...
